@@ -1,1 +1,2 @@
 # downloads-sorter
+./sort.sh ..

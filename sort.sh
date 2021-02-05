@@ -13,7 +13,7 @@ read_config website
 read_config gif
 read_config pic
 
-cd ..
+cd "$1"
 move_extensions video "${video_extensions[@]}"
 move_extensions website "${website_extensions[@]}"
 move_extensions gif "${gif_extensions[@]}"
