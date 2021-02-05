@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function move_extension {
 	mv *."$2" "$1" 2>/dev/null
