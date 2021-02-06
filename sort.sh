@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+if [ -z "$*" ]; then echo "Usage: ./sort.sh .."; fi
+
 source ./mover.sh
 source ./config_reader.sh
 
